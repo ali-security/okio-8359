@@ -104,8 +104,8 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Prepare docs
-        run: .buildscript/prepare_mkdocs.sh
+      # - name: Prepare docs
+      #   run: .buildscript/prepare_mkdocs.sh
 
       - name: Build mkdocs
         run: |
